@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { PrimaryLayout } from "@/layouts/primary";
+import { PrimaryLayout } from "../layouts/primary";
 
 function Index() {
   return (

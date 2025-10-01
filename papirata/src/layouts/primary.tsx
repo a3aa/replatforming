@@ -10,6 +10,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const PrimaryLayout = ({ children }) => {
+export const PrimaryLayout: React.FC<React.PropsWithChildren> = ({ children }) => {
     return <div className={`${geistSans.variable} ${geistMono.variable} antialiased`} >{children}</div>
 }
